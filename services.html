@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - DriversLane Driving Academy</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION BAR ========== -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-car-front-fill"></i> Drivers<span>Lane</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">Courses</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#tdc">Theoretical Driving Course</a></li>
+              <li><a class="dropdown-item" href="#pdc">Practical Driving Course</a></li>
+              <li><hr class="dropdown-divider" style="border-color: rgba(255,255,255,0.2);"></li>
+              <li><a class="dropdown-item" href="#pricing">Course Comparison</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HEADER ========== -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Our Services</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb justify-content-center">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item active">Services</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <!-- ========== TDC SECTION ========== -->
+  <section class="service-detail" id="tdc">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 reveal">
+          <div class="service-block">
+            <h3><i class="bi bi-book me-2"></i>Theoretical Driving Course (TDC)</h3>
+            <p>The Theoretical Driving Course is required for new drivers who want to understand the basics of driving and road safety.</p>
+            <h5 class="mt-4">Course Coverage:</h5>
+            <!-- Unordered List -->
+            <ul>
+              <li>Enrollment Fee: ₱ 1,000 </li>
+              <li>Traffic rules and regulations</li>
+              <li>Road signs and markings</li>
+              <li>Driving ethics and responsibilities</li>
+              <li>Defensive driving techniques</li>
+              <li>Road safety awareness</li>
+            </ul>
+            <div class="mt-4 p-3" style="background: var(--overlay-light); border-radius: 10px;">
+              <h6><i class="bi bi-clock me-2"></i>Duration:</h6>
+              <p class="mb-0">15 hours training / 2 days (may vary depending on schedule)</p>
+            </div>
+            <a href="contact.html" class="btn btn-primary-custom mt-4">Enroll in TDC</a>
+          </div>
+        </div>
+        <div class="col-lg-6 reveal">
+          <!-- Animated Image -->
+          <img src="https://placehold.co/600x450/1a3c6e/ffffff?text=Theoretical+Driving+Course" alt="TDC" class="img-animated animate-float" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PDC SECTION ========== -->
+  <section class="section-padding" id="pdc" style="background: var(--light);">
+    <div class="container">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-6 order-lg-2 reveal">
+          <div class="service-block">
+            <h3><i class="bi bi-car-front me-2"></i>Practical Driving Course (PDC)</h3>
+            <p>The Practical Driving Course provides hands-on driving lessons supervised by certified instructors.</p>
+            <h5 class="mt-4">Course Coverage:</h5>
+            <ul>
+              <li>4 wheels MT/AT - ₱ 4,000</li>
+              <li>Motorcycle - ₱ 1,900</li>
+              <li>Basic vehicle control</li>
+              <li>Proper parking techniques</li>
+              <li>Road maneuvering skills</li>
+              <li>City driving practice</li>
+              <li>Emergency driving procedures</li>
+            </ul>
+            <div class="mt-4 p-3" style="background: var(--overlay-light); border-radius: 10px;">
+              <h6><i class="bi bi-clock me-2"></i>Duration:</h6>
+              <p class="mb-0">2 hours per day total of 8 hours training</p>
+            </div>
+            <a href="contact.html" class="btn btn-primary-custom mt-4">Enroll in PDC</a>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1 reveal">
+          <!-- Animated Image -->
+          <img src="https://placehold.co/600x450/0d2240/ffffff?text=Practical+Driving+Course" alt="PDC" class="img-animated animate-float" style="width: 100%;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COURSE COMPARISON TABLE ========== -->
+  <section class="section-padding" id="pricing">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Course Comparison</h2>
+        <p>Find the right course for you</p>
+      </div>
+      <div class="row justify-content-center reveal">
+        <div class="col-lg-10">
+          <!-- Table -->
+          <table class="table-custom">
+            <thead>
+              <tr>
+                <th>Course</th>
+                <th>Duration</th>
+                <th>Type</th>
+                <th>Transmission</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Theoretical Driving Course (TDC)</strong></td>
+                <td>15 Hours / 2 days</td>
+                <td>Classroom</td>
+                <td>N/A</td>
+                <td><a href="contact.html" class="btn btn-primary-custom btn-sm">Enroll</a></td>
+              </tr>
+              <tr>
+                <td><strong>Practical Driving Course (PDC) — Manual</strong></td>
+                <td>8 hours / 2 hours per day</td>
+                <td>Actual Driving</td>
+                <td>Manual</td>
+                <td><a href="contact.html" class="btn btn-primary-custom btn-sm">Enroll</a></td>
+              </tr>
+              <tr>
+                <td><strong>Practical Driving Course (PDC) — Automatic</strong></td>
+                <td>8 hours / 2 hours per day</td>
+                <td>Actual Driving</td>
+                <td>Automatic</td>
+                <td><a href="contact.html" class="btn btn-primary-custom btn-sm">Enroll</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY WITH LIGHTBOX ========== -->
+  <section class="gallery-section" style="background: var(--light);">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Training Gallery</h2>
+        <p>Click on any image to view full size</p>
+      </div>
+      <div class="gallery-grid reveal">
+        <div class="gallery-item" data-caption="TDC Classroom Session">
+          <img src="images/classroom.jpeg" alt="TDC Classroom">
+          <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i></span></div>
+        </div>
+        <div class="gallery-item" data-caption="Parking Training Session">
+          <img src="images/student.jpeg" alt="Parking Training">
+          <div class="gallery-overlay"><span><i class="bi bi-zoom-in"></i></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA ========== -->
+  <section class="cta-section">
+    <div class="container position-relative" style="z-index: 1;">
+      <div class="reveal">
+        <h2>Ready to Start Your Driving Journey?</h2>
+        <p class="mt-3 mb-4">Enroll now and get trained by certified professionals at DriversLane Driving Academy.</p>
+        <a href="contact.html" class="btn btn-primary-custom btn-lg">
+          <i class="bi bi-pencil-square me-2"></i>Enroll Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LIGHTBOX MODAL ========== -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <button class="lightbox-close">&times;</button>
+    <img id="lightboxImg" src="" alt="Lightbox Image">
+    <div class="lightbox-caption" id="lightboxCaption"></div>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h5><i class="bi bi-car-front-fill me-2"></i>DriversLane</h5>
+          <p>DriversLane Driving Academy is dedicated to providing high-quality driver education in Davao City.</p>
+          <p><i class="bi bi-envelope me-2"></i>driverslane@email.com</p>
+          <p><i class="bi bi-facebook me-2"></i>DriversLane Driving Academy</p>
+        </div>
+        <div class="col-lg-4">
+          <h5>Our Branches</h5>
+          <ul>
+            <li><i class="bi bi-geo-alt me-2"></i>Ecoland Branch — Ecoland Drive, Davao City</li>
+            <li><i class="bi bi-geo-alt me-2"></i>Toril Branch — Toril Proper, Davao City</li>
+          </ul>
+          <p class="mt-3"><i class="bi bi-clock me-2"></i>Mon – Sat | 8:00 AM – 5:00 PM</p>
+        </div>
+        <div class="col-lg-4">
+          <h5>Site Map</h5>
+          <ul>
+            <li><a href="index.html"><i class="bi bi-chevron-right me-1"></i>Home</a></li>
+            <li><a href="about.html"><i class="bi bi-chevron-right me-1"></i>About</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right me-1"></i>Services</a></li>
+            <li><a href="contact.html"><i class="bi bi-chevron-right me-1"></i>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>DriversLane Driving Academy | Davao City</p>
+        <p>Branches: Ecoland | Toril</p>
+        <div class="sitemap-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <p class="mt-3">Developed by: <span class="developer-credit">Elaiza Sia</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" title="Back to Top"><i class="bi bi-arrow-up"></i></button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

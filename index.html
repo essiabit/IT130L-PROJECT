@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DriversLane Driving Academy - Home</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION BAR with Dropdown ========== -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-car-front-fill"></i> Drivers<span>Lane</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMain">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <!-- Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="services.html#tdc">Theoretical Driving Course</a></li>
+              <li><a class="dropdown-item" href="services.html#pdc">Practical Driving Course</a></li>
+              <li><hr class="dropdown-divider" style="border-color: rgba(255,255,255,0.2);"></li>
+              <li><a class="dropdown-item" href="services.html#pricing">Course Comparison</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO CAROUSEL / SLIDING WINDOW ========== -->
+  <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+    </div>
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active" style="background-image: url('https://placehold.co/1920x900/1a3c6e/ffffff?text=DriversLane+Academy');">
+        <div class="carousel-caption">
+          <h1><span>DriversLane</span> Driving Academy</h1>
+          <p>Your Road to Safe and Confident Driving Starts Here. Learn to drive with confidence and responsibility through our certified driving programs.</p>
+          <a href="contact.html" class="btn btn-primary-custom me-2">Enroll Now</a>
+          <a href="services.html" class="btn btn-outline-custom">View Courses</a>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item" style="background-image: url('https://placehold.co/1920x900/0d2240/ffffff?text=Professional+Instructors');">
+        <div class="carousel-caption">
+          <h1>Certified & Experienced <span>Instructors</span></h1>
+          <p>DriversLane provides professional instruction designed to help students become skilled, knowledgeable, and safety-conscious drivers.</p>
+          <a href="about.html" class="btn btn-primary-custom me-2">Learn More</a>
+          <a href="contact.html" class="btn btn-outline-custom">Contact Us</a>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="carousel-item" style="background-image: url('https://placehold.co/1920x900/2a5298/ffffff?text=Start+Driving+Today');">
+        <div class="carousel-caption">
+          <h1>Enroll Today & Get Your <span>License</span></h1>
+          <p>LTO-compliant training programs with two convenient locations in Davao City. Start your journey today!</p>
+          <a href="contact.html" class="btn btn-primary-custom me-2">Reserve a Slot</a>
+          <a href="services.html" class="btn btn-outline-custom">Our Programs</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <!-- ========== WHY CHOOSE US ========== -->
+  <section class="why-choose section-padding">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Why Choose DriversLane?</h2>
+        <p>We offer the best driving education experience in Davao City</p>
+      </div>
+      <div class="row g-4">
+        <!-- Feature 1 -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="feature-card">
+            <div class="icon"><i class="bi bi-award"></i></div>
+            <h5>Certified Instructors</h5>
+            <p>Our instructors are fully certified and bring years of professional driving education experience.</p>
+          </div>
+        </div>
+        <!-- Feature 2 -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="feature-card">
+            <div class="icon"><i class="bi bi-person-check"></i></div>
+            <h5>Beginner-Friendly</h5>
+            <p>Beginner-friendly driving lessons designed for students with no prior driving experience.</p>
+          </div>
+        </div>
+        <!-- Feature 3 -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="feature-card">
+            <div class="icon"><i class="bi bi-calendar-check"></i></div>
+            <h5>Flexible Schedules</h5>
+            <p>Flexible training schedules that fit your availability — weekdays, weekends, or evenings.</p>
+          </div>
+        </div>
+        <!-- Feature 4 -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="feature-card">
+            <div class="icon"><i class="bi bi-car-front"></i></div>
+            <h5>Modern Vehicles</h5>
+            <p>Modern and well-maintained vehicles equipped for a safe and comfortable learning experience.</p>
+          </div>
+        </div>
+        <!-- Feature 5 -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="feature-card">
+            <div class="icon"><i class="bi bi-shield-check"></i></div>
+            <h5>LTO-Compliant</h5>
+            <p>LTO-compliant training programs that meet all government requirements for driver education.</p>
+          </div>
+        </div>
+        <!-- Feature 6 -->
+        <div class="col-md-6 col-lg-4 reveal">
+          <div class="feature-card">
+            <div class="icon"><i class="bi bi-geo-alt"></i></div>
+            <h5>Two Locations</h5>
+            <p>Two convenient locations in Davao City — Ecoland and Toril branches ready to serve you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== OUR COURSES ========== -->
+  <section class="section-padding" style="background: #fff;">
+    <div class="container">
+      <div class="section-title reveal">
+        <h2>Our Courses</h2>
+        <p>Professional driving programs tailored for every learner</p>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <!-- TDC Card -->
+        <div class="col-md-6 reveal">
+          <div class="course-card">
+            <div class="card-img-wrapper">
+              <!-- Animated Image -->
+              <img src="https://placehold.co/600x400/1a3c6e/ffffff?text=TDC+Course" alt="Theoretical Driving Course" class="animate-pulse">
+            </div>
+            <div class="card-body">
+              <h4>Theoretical Driving Course (TDC)</h4>
+              <p>Learn the fundamentals of driving, traffic laws, and road safety through comprehensive classroom instruction.</p>
+              <!-- List -->
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Traffic rules and regulations</li>
+                <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Road signs and markings</li>
+                <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Defensive driving techniques</li>
+              </ul>
+              <a href="services.html#tdc" class="btn btn-primary-custom btn-sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <!-- PDC Card -->
+        <div class="col-md-6 reveal">
+          <div class="course-card">
+            <div class="card-img-wrapper">
+              <!-- Animated Image -->
+              <img src="https://placehold.co/600x400/0d2240/ffffff?text=PDC+Course" alt="Practical Driving Course" class="animate-pulse">
+            </div>
+            <div class="card-body">
+              <h4>Practical Driving Course (PDC)</h4>
+              <p>Hands-on driving experience guided by professional instructors in real road conditions.</p>
+              <!-- List -->
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Basic vehicle control</li>
+                <li><i class="bi bi-check-circle-fill text-warning me-2"></i>City driving practice</li>
+                <li><i class="bi bi-check-circle-fill text-warning me-2"></i>Manual & automatic options</li>
+              </ul>
+              <a href="services.html#pdc" class="btn btn-primary-custom btn-sm">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CTA SECTION ========== -->
+  <section class="cta-section">
+    <div class="container position-relative" style="z-index: 1;">
+      <div class="reveal">
+        <h2>Ready to Start Driving?</h2>
+        <p class="mt-3 mb-4">Contact us today to reserve your slot! Visit our branches in Ecoland and Toril.</p>
+        <a href="contact.html" class="btn btn-primary-custom btn-lg me-2">
+          <i class="bi bi-telephone-fill me-2"></i>Contact Us
+        </a>
+        <a href="services.html" class="btn btn-outline-custom btn-lg">
+          <i class="bi bi-journal-text me-2"></i>View Programs
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h5><i class="bi bi-car-front-fill me-2"></i>DriversLane</h5>
+          <p>DriversLane Driving Academy is dedicated to providing high-quality driver education in Davao City.</p>
+          <p><i class="bi bi-envelope me-2"></i>driverslane@email.com</p>
+          <p><i class="bi bi-facebook me-2"></i>DriversLane Driving Academy</p>
+        </div>
+        <div class="col-lg-4">
+          <h5>Our Branches</h5>
+          <ul>
+            <li><i class="bi bi-geo-alt me-2"></i>Ecoland Branch — Ecoland Drive, Davao City</li>
+            <li><i class="bi bi-geo-alt me-2"></i>Toril Branch — Toril Proper, Davao City</li>
+          </ul>
+          <p class="mt-3"><i class="bi bi-clock me-2"></i>Mon – Sat | 8:00 AM – 5:00 PM</p>
+        </div>
+        <div class="col-lg-4">
+          <h5>Site Map</h5>
+          <ul>
+            <li><a href="index.html"><i class="bi bi-chevron-right me-1"></i>Home</a></li>
+            <li><a href="about.html"><i class="bi bi-chevron-right me-1"></i>About</a></li>
+            <li><a href="services.html"><i class="bi bi-chevron-right me-1"></i>Services</a></li>
+            <li><a href="contact.html"><i class="bi bi-chevron-right me-1"></i>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>DriversLane Driving Academy | Davao City</p>
+        <p>Branches: Ecoland | Toril</p>
+        <div class="sitemap-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <p class="mt-3">Developed by: <span class="developer-credit">Elaiza Sia</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" title="Back to Top"><i class="bi bi-arrow-up"></i></button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
